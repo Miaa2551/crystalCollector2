@@ -1,0 +1,129 @@
+* {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+body {
+	background-image:url('https://st.depositphotos.com/2654883/4242/v/950/depositphotos_42424853-stock-illustration-background-abstract-triangle-geometry-pattern.jpg');
+	text-align: center;
+}
+
+.container {
+	margin: auto;
+    max-width: 35%;
+	margin-bottom: 10px;
+	background-color: #fff;
+	
+}
+
+div {
+	max-width: 90%;
+	margin-left: 50px;
+	margin-top: 20px;
+	box-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+				0px 8px 13px rgba(0,0,0,0.1),
+				0px 18px 23px rgba(0,0,0,0.1);
+}
+
+.title {
+	background: #c52222;
+	max-width: 100%;
+	margin-left: 0;
+	height: 75px;
+	box-shadow: none;
+	text-align: center;
+}
+
+h1 {
+	width: 100%;
+	font-weight: 700;
+	font-size: 36px;
+	color: #fff;
+	margin: auto;
+	padding-top: 17px;
+}
+
+p {
+	padding: 10px;
+}
+
+.instructions {
+	margin-left: 25px;
+    padding: 25px 5px;
+	background-color: hsl(209, 96%, 56%);
+	color: rgb(10, 7, 7); 
+	font-size: 20px;
+
+}
+
+.random {
+	height: 135px;
+	width: 200px;
+	margin-left: 10%;
+	background-color: hsl(0, 84%, 53%);
+	color: rgb(10, 7, 7);
+	padding-top: 10px;
+	font-size: 24px;
+	float: left;
+}
+
+#randomNumber {
+	margin-left: 80px;
+	font-size: 36px;
+	float: left;
+}
+
+h2 {
+	padding: 20px 5px;
+	line-height: 2;
+}
+
+.scoreboard {
+	float: left;
+	height: 135px;
+	width: 199px;
+	margin-left: 7.7%;
+	background-color: #f0ff1a;
+	color: #0a0a0a;
+}
+
+.scoreboard p {
+	font-size: 24px;
+	padding-top: 25px;
+}
+
+.crystals {
+	clear: both;
+	margin-left: 0;
+	padding-top: 25px;
+	margin-left: 4.3%;
+	box-shadow: none;
+}
+
+img {
+	height: 75px;
+}
+
+#green, #pink, #yellow {
+	margin-left: 0;
+	padding-left: 5px;
+}
+
+.userTotal {
+	height: 120px;
+	max-width: 100%;
+	background-color: #c52222;
+	color: #fff;
+	font-size: 36px;
+	margin-left: 0;
+	padding: 5px;
+	box-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+				0px 8px 13px rgba(0,0,0,0.1),
+				0px 18px 23px rgba(0,0,0,0.1);
+}
+
+#totalScore {
+	color: #fff;
+	padding: 45px;
+}

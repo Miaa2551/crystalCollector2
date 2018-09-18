@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Crystal Collector</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+    <div class="container">
+        <div class="title">
+            <h1>Crystal Collector</h1>
+        </div>
+        <div class="instructions">
+            <p>You will be given a random number at the start of the game.</p>
+
+            <p>There are four crystals below. By clicking on a crystal you will add a specific number of points to your total score.</p>
+            
+            <p>You win the game by matching your total score to the random number. You lose the game if your total score goes above the random number.</p>
+             
+            <p>The value of each crystal is revealed in the last box at the bottom when you click on it.</p>
+            
+            <p>The game will automatically change the vaule of each crystal when the game starts over after you win or lose.</p>
+        </div>
+        <div class="random">
+            <p>Match this nubmber:</p>
+            <span id="randomNumber"></span>
+        </div>
+        <div class="scoreboard">
+            <p>Wins: <span id="numWins"></span></p>
+            <p>Losses: <span id="numLosses"></span></p>
+            </h2>
+        </div>
+        <div class="crystals">
+            <img id="diamond" src="C:\Users\miaa2_9cj6lul\OneDrive\Desktop\Crystal Game\assets\images\diamond.jpg" alt="diamond" height="100" width="100"> 
+            <img id="ruby" src="C:\Users\miaa2_9cj6lul\OneDrive\Desktop\Crystal Game\assets\images\ruby.jpg" alt="ruby" height="100" width="100">
+            <img id="sapphire" src="C:\Users\miaa2_9cj6lul\OneDrive\Desktop\Crystal Game\assets\images\sapphire.jpg" alt="sapphire" height="100" width="100">
+            <img id="topaz" src="C:\Users\miaa2_9cj6lul\OneDrive\Desktop\Crystal Game\assets\images\topaz.jpg" alt="topaz" height="100" width="100">
+        </div>
+        <div class="userTotal">
+            <p>Your total score is:</p>
+            <span id="totalScore"></span>
+        </div>
+    </div>
+</body>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script type="text/javascript" src="assets/javascript/game.js"></script>
+
+</html>
